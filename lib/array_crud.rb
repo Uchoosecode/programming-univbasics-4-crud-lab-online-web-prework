@@ -47,8 +47,9 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  retrieve_last_element_from_array = []
+  retrieve_last_element_from_array = ["wow", "I", "am", "really", "learning", "arrays!"]
   
+  p retrieve_last_element_from_array[5]
 end
 
 def update_element_from_index(array, index_number, element)
