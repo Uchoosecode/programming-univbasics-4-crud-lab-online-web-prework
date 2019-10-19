@@ -21,12 +21,17 @@ end
 def remove_element_from_end_of_array(array)
   remove_element_from_end_of_array = ["I", "am", "really", "learning", "arrays!"]
   array = remove_element_from_end_of_array.pop
+  
   p remove_element_from_end_of_array
   p array
 end
 
 def remove_element_from_start_of_array(array)
+  remove_element_from_start_of_array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  wow = remove_element_from_start_of_array.shift
   
+  p remove_element_from_start_of_array
+  p wow
 end
 
 def retrieve_element_from_index(array, index_number)
