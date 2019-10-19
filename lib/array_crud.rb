@@ -8,6 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   add_element_to_end_of_array << "shovel"
+  p add_element_to_end_of_array
 end
 
 def add_element_to_start_of_array(array, element)
